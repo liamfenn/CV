@@ -1,0 +1,173 @@
+body {
+    margin: 0px;
+}
+nav {
+    display: flex;
+    justify-content: right;
+    background-color: #2E3192;
+}
+nav h5, p {
+    margin: 15px;
+}
+nav a {
+    font-family: Libre Baskerville;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 10px 80px 0 0;
+    color: #ffffff;
+}
+nav a:hover {
+    opacity: 40%;
+}
+.bird1 {
+    position: absolute;
+    top: 120px;
+    left: 110px;
+    border-radius: 1px;
+}
+.bird2 {
+    position: absolute;
+    top: 270px;
+    right: 140px;
+    border-radius: 1px;
+    transform: scaleX(-1);
+}
+.subheader {
+    display: flex;
+    gap: 150px;
+    font-family: Libre Baskerville;
+    font-weight: 700;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 170px;
+    color: #2E3192;
+}
+.splash {
+    position: relative;
+    text-align: center;
+    margin-top: 220px;
+}
+.body-content {
+    margin: 140px 0 60px 0;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #2E3192;
+    padding: 60px 0 60px 0;
+}
+.headshot {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 5px;
+}
+.body-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.body-text h2 {
+    font-family: Libre Baskerville;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: right;
+    margin-right: 50px;
+}
+.body-text p {
+    font-family: Libre Baskerville;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 2;
+}
+#accent {
+    font-family: Libre Baskerville;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+}
+hr {
+    border-top: none;
+    border-bottom: none;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.about {
+    font-family: Libre Baskerville;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0 0 60px 150px;
+    color: #2E3192;
+}
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 50px;
+    margin: 0 50px 60px 50px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #2E3192;
+    font-family: Libre Baskerville;
+    font-weight: 400;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    text-align: center;
+    border-radius: 5px;
+}
+.card h3, dl, ul {
+    text-align: center;
+    list-style-type: none;
+}
+.card h3 {
+    font-size: 18px;
+}
+.card ul li {
+    margin-right: 40px;
+}
+.card dl dt {
+    font-weight: 700;
+}
+.address {
+    font-family: Libre Baskerville;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2E3192;
+    text-align: center;
+    margin-top: 50px;
+}
+.one-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin: 0 500px 100px 500px;
+}
+input {
+    font-family: Libre Baskerville;
+    color: #2E3192;
+}
+form {
+    padding: 50px 0;
+    color: #2E3192;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #2E3192;
+}
+footer h5 {
+    margin: 15px;
+}
+footer a {
+    font-family: Pinyon Script;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffffff;
+}
+footer a:hover {
+    opacity: 40%;
+}
